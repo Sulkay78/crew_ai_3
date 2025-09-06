@@ -1,0 +1,20 @@
+research_task:
+  description: >
+    Search the web for the requested coding/technical topic.
+    Collect reliable sources, summarize their content briefly.
+  expected_output: >
+    A list of links with snippets and key findings.
+
+summarization_task:
+  description: >
+    Take the research output and summarize it into structured sections.
+    Highlight key points, pros/cons, and main insights.
+  expected_output: >
+    A well-structured summary in bullet points or sections.
+
+validation_task:
+  description: >
+    Validate the summarized content against the sources.
+    Check consistency, correctness, and produce the final report in Markdown.
+  expected_output: >
+    A validated technical report saved as final_report.md
